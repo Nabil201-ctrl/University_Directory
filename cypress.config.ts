@@ -1,4 +1,6 @@
-export default {
+import { defineConfig } from "cypress";
+
+export default defineConfig({
   allowCypressEnv: false,
 
   e2e: {
@@ -6,4 +8,4 @@ export default {
       // implement node event listeners here
     },
   },
-};
+});
