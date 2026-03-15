@@ -57,7 +57,7 @@ export default function ContentBox({ universities: initialUniversities }: Conten
           value={search}
           onChange={(e) => setSearch(e.target.value)}
           placeholder={`Search by ${searchType}...`}
-          className="border p-2 w-full max-w-md rounded shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500"
+          className=" search_input border p-2 w-full max-w-md rounded shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500"
         />
       </div>
 

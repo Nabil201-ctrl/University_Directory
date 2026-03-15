@@ -12,7 +12,7 @@ export default async function Page() {
 
   return (
     <div className="flex flex-col items-center min-h-screen bg-gray-100 container mx-auto py-12">
-      <h1 className="text-4xl font-extrabold text-blue-800 mb-8 tracking-tight">
+      <h1 className="header-text text-4xl font-extrabold text-blue-800 mb-8 tracking-tight">
         University Directory
       </h1>
       <ContentBox universities={universities} />
