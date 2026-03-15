@@ -9,6 +9,12 @@ This is a Next.js application that provides a directory of universities using th
 - **Responsive Design**: The application uses Tailwind CSS for a responsive, mobile-friendly user interface.
 - **Search Type Selection**: Easily switch between searching by country or name using a dropdown selection.
 - **Debounced Fetching**: Implements debounce on the search input to avoid spamming requests to the API while typing.
+- **Cypress Tests**: Implemented the use of cypress Test to test the platform
+
+## Screen Shot of Test
+![Test improgress ScreeenShot](./public/TestDisplay.png)
+
+![Test Done ScreenShot](./public/TestDone.png)
 
 ## Getting Started
 
